@@ -1,0 +1,335 @@
+
+    body  {
+        background-color: lightblue;
+        height: 1082px;
+    }
+    header{
+        background-color:#
+        h1{
+          font-size: 255px;
+        }
+      }
+    
+    header h1 {
+        color: black;
+        height: 100px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align:start;
+        font-size: 50px;
+        padding-block-start: 30px;
+    }
+    
+    nav{
+        text-align: center;
+    }
+    nav a {
+     text-decoration: none;
+     font-size: 113px;
+     padding-right: 125px;
+     padding-left: 125px;
+     color: rgb(0, 0, 0) 119, 117;
+     all: initial;
+ }
+    nav button {
+     background-color: #8c00ff;
+     font-size: 25px;
+     font-family: Arial, Helvetica, sans-serif;
+     text-align:start;
+   }
+    
+    main {
+        padding-top: 15px;
+        height: 118px;
+        color: green;
+        text-align: center;
+        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana,
+            sans-serif;
+        font-size: 100px;
+    }
+    footer {
+        background-color: rgba(255, 255, 255, 0.856);
+        left: 0px;
+        width: 5500px;
+        bottom: -4000px;
+        position:relative;
+        height: 700px;
+    }
+    
+    footer h1 {
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: start;
+        font-size: 50px;
+    }
+    /*text-decoration: none*/
+    
+    footer a {
+        color: blue;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: start;
+        font-size: 50px;
+    }
+    
+    footer p {
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: start;
+        font-size: 50px;
+    }
+    footer h2 {
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: start;
+        font-size: 50px;
+    }
+    
+    .alert-danger {
+        font-size: 18px;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 10px;
+        border: 0px solid red;
+        margin: 10px;
+        background-color: red;
+        width: 5500px;
+    }
+    .alert-success {
+        font-size: 18px;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 10px;
+        border: 0px solid green;
+        margin: 10px;
+        background-color: green;
+        width: 5500px;
+    }
+    .alert-warning {
+        font-size: 18px;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 10px;
+        border: 0px solid yellow;
+        margin: 10px;
+        background-color: yellow;
+        width: 5500px;
+    }
+    a {
+        color: black;
+    }
+    
+    /* Internal links, beginning with "#" */
+    a[href^="#"] {
+        background-color: white;
+    }
+    
+    .alert-danger span {
+        background-color: red;
+    }
+    .alert-success span {
+        background-color: green;
+    }
+    .alert-warning span {
+        background-color: yellow;
+    }
+    
+    
+    a:active {
+        background-color: purple;
+    }
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    html,
+    body {
+        height: 100%;
+    }
+    
+    #contanier {
+        min-height: 100%;
+    }
+    #main {
+        overflow: auto;
+        padding: 100px;
+    }
+    
+    #footer {
+        background-color: black;
+        position: relative;
+        height:700px;
+        margin-bottom: -4000px;
+        clear: both;
+        width: 5500px;
+    }
+    img{
+        border: 1px solid black
+    }
+    @media only screen and (min-width:375px){
+        body  {
+            background-color: lightblue;
+            height: 1082px;
+        }
+        header {
+            background-color: grey;
+            height: 100px;
+            text-align:start;
+            width: 7000px;
+        }
+        
+        header h1 {
+            color: black;
+            height: 100px;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align:start;
+            font-size: 50px;
+            padding-block-start: 30px;
+        }
+        
+        nav{
+            text-align: center;
+        }
+        nav a {
+         text-decoration: none;
+         font-size: 113px;
+         padding-right: 125px;
+         padding-left: 125px;
+         color: rgb(0, 0, 0) 119, 117;
+         all: initial;
+     }
+        nav button {
+         background-color: #8c00ff;
+         font-size: 25px;
+         font-family: Arial, Helvetica, sans-serif;
+         text-align:start;
+       }
+        
+        main {
+            padding-top: 15px;
+            height: 118px;
+            color: green;
+            text-align: center;
+            font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana,
+                sans-serif;
+            font-size: 100px;
+        }
+        footer {
+            background-color: rgba(255, 255, 255, 0.856);
+            left: 0px;
+            width: 5500px;
+            bottom: -4000px;
+            position:relative;
+            height: 700px;
+        }
+        
+        footer h1 {
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: start;
+            font-size: 50px;
+        }
+        /*text-decoration: none*/
+        
+        footer a {
+            color: blue;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: start;
+            font-size: 50px;
+        }
+        
+        footer p {
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: start;
+            font-size: 50px;
+        }
+        footer h2 {
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: start;
+            font-size: 50px;
+        }
+        
+        .alert-danger {
+            font-size: 18px;
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 10px;
+            border: 0px solid red;
+            margin: 10px;
+            background-color: red;
+            width: 5500px;
+        }
+        .alert-success {
+            font-size: 18px;
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 10px;
+            border: 0px solid green;
+            margin: 10px;
+            background-color: green;
+            width: 5500px;
+        }
+        .alert-warning {
+            font-size: 18px;
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 10px;
+            border: 0px solid yellow;
+            margin: 10px;
+            background-color: yellow;
+            width: 5500px;
+        }
+        a {
+            color: black;
+        }
+        
+        /* Internal links, beginning with "#" */
+        a[href^="#"] {
+            background-color: white;
+        }
+        
+        .alert-danger span {
+            background-color: red;
+        }
+        .alert-success span {
+            background-color: green;
+        }
+        .alert-warning span {
+            background-color: yellow;
+        }
+        
+        
+        a:active {
+            background-color: purple;
+        }
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+        
+        html,
+        body {
+            height: 100%;
+        }
+        
+        #contanier {
+            min-height: 100%;
+        }
+        #main {
+            overflow: auto;
+            padding: 100px;
+        }
+        
+        #footer {
+            background-color: black;
+            position: relative;
+            height: 700px;
+            margin-bottom: -4000px;
+            clear: both;
+            width: 5500px;
+        }
+        .message .img{
+    border: 1px solid black
+}
+    }

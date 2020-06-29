@@ -1,0 +1,257 @@
+body{
+    height: 1082px;
+    background-color:lightblue;
+        
+}
+
+header{
+    background-color:gray;
+    height: 100px;
+    text-align:start;
+    width: 5500px;
+}
+header h1{
+    color: black;
+    height: 100px;
+font-family: Arial, Helvetica, sans-serif;
+text-align:start;
+font-size: 50px;
+padding-block-start: 30px;
+}
+nav{
+    text-align: center;
+}
+nav{
+    text-align: center;
+}
+nav a {
+ text-decoration: none;
+ font-size: 113px;
+ padding-right: 125px;
+ padding-left: 125px;
+ color: rgb(0, 0, 0) 119, 117;
+ all: initial;
+}
+nav button {
+ background-color: #8c00ff;
+ font-size: 25px;
+ font-family: Arial, Helvetica, sans-serif;
+ text-align:start;}
+ 
+main{}
+
+.alert-danger{
+    font-size:18px;
+    font-weight:bold ;
+    font-family:Arial, Helvetica, sans-serif ;
+    padding:10px ;
+    border: 0px solid red;
+    margin:10px ;
+background-color: red;
+width: 5500px;
+}
+.alert-success{
+    font-size:18px;
+    font-weight:bold ;
+    font-family:Arial, Helvetica, sans-serif ;
+    padding:10px ;
+    border: 0px solid green;
+    margin:10px ;
+background-color:green;
+width: 5500px;}
+.alert-warning{
+    font-size:18px;
+    font-weight:bold ;
+    font-family:Arial, Helvetica, sans-serif ;
+    padding:10px ;
+    border: 0px solid yellow;
+    margin:10px ;
+background-color:yellow;
+width: 5500px;}
+
+footer {background-color:rgba(0, 0, 0, 0.856);
+    left: 0px;
+    width: 5500px;
+    bottom: -4000px;
+    position: fixed;
+    height: 700px;
+}
+        
+    footer h1 { color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align:start;
+        font-size: 50px;
+        }
+        /*text-decoration: none*/ 
+        
+        footer a {
+            color: blue;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align:start;
+    font-size: 50px;}
+        
+        footer p {color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align:start;
+        font-size: 50px;
+        }
+
+ a{
+     color: black;
+ }       
+        
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+
+    html, body{
+        height: 100%;
+    }
+
+    #contanier{
+        min-height:100%;
+    }
+    #main{
+        overflow: auto;
+        padding: 100px;
+    }
+
+    #footer{
+        background-color:black;
+        width: 5500px;
+        position:relative;
+        height: 700px;
+        margin-bottom:-4000px;
+        clear: both;
+    }
+
+@media only screen and (min-width:375px) {body{
+    height: 1082px;
+    background-color:lightblue;
+        
+}
+
+header{
+    background-color:gray;
+    height: 100px;
+    text-align:start;
+    width: 5500px;
+}
+header h1{
+    color: black;
+    height: 100px;
+font-family: Arial, Helvetica, sans-serif;
+text-align:start;
+font-size: 50px;
+padding-block-start: 30px;
+}
+nav{
+    text-align: center;
+}
+nav{
+    text-align: center;
+}
+nav a {
+ text-decoration: none;
+ font-size: 113px;
+ padding-right: 125px;
+ padding-left: 125px;
+ color: rgb(0, 0, 0) 119, 117;
+ all: initial;
+}
+nav button {
+ background-color: #8c00ff;
+ font-size: 25px;
+ font-family: Arial, Helvetica, sans-serif;
+ text-align:start;}
+ 
+main{}
+.alert-danger{
+    font-size:18px;
+    font-weight:bold ;
+    font-family:Arial, Helvetica, sans-serif ;
+    padding:10px ;
+    border: 0px solid red;
+    margin:10px ;
+background-color: red;
+width: 5500px;
+}
+.alert-success{
+    font-size:18px;
+    font-weight:bold ;
+    font-family:Arial, Helvetica, sans-serif ;
+    padding:10px ;
+    border: 0px solid green;
+    margin:10px ;
+background-color:green;
+width: 5500px;}
+.alert-warning{
+    font-size:18px;
+    font-weight:bold ;
+    font-family:Arial, Helvetica, sans-serif ;
+    padding:10px ;
+    border: 0px solid yellow;
+    margin:10px ;
+background-color:yellow;
+width: 5500px;
+}
+
+footer {background-color:rgba(0, 0, 0, 0.856);
+    left: 0px;
+    width: 5500px;
+    bottom: -4000px;
+    position: fixed;
+    height: 700px;
+}
+        
+    footer h1 { color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align:start;
+        font-size: 50px;
+        }
+        /*text-decoration: none*/ 
+        
+        footer a {
+            color: blue;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align:start;
+    font-size: 50px;}
+        
+        footer p {color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align:start;
+        font-size: 50px;
+        }
+
+ a{
+     color: black;
+ }       
+        
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+
+    html, body{
+        height: 100%;
+    }
+
+    #contanier{
+        min-height:100%;
+    }
+    #main{
+        overflow: auto;
+        padding: 100px;
+    }
+
+    #footer{
+        background-color:black;
+        position:relative;
+        height: 700px;
+        margin-bottom:-4000px;
+        clear: both;
+        width: 5500px;
+    }
+
+}

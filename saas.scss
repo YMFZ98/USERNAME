@@ -1,0 +1,16 @@
+// varaiables 
+
+$navbutton:#8c00ff;
+nav button {
+    background-color: #8c00ff;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:start;
+  }
+.message{
+    border: 1px solid black;
+}
+
+img{
+    @extend .message;
+}

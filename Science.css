@@ -1,0 +1,304 @@
+
+body{
+    background-color: lightblue;
+}
+header {
+    
+    background-color: grey;
+    height: 100px;
+    text-align:center;
+width:4000px;}
+  
+
+
+
+header h1 {
+    color: black;
+    height:100px ;
+font-family: Arial, Helvetica, sans-serif;
+text-align:center;
+font-size: 50px;
+padding-block-start: 30px;
+
+}
+.alert-danger{
+    font-size:18px;
+    font-weight:bold ;
+    font-family:Arial, Helvetica, sans-serif ;
+    padding:10px ;
+    border: 0px solid red;
+    margin:10px ;
+background-color: red;
+}
+.alert-success{
+    font-size:18px;
+    font-weight:bold ;
+    font-family:Arial, Helvetica, sans-serif ;
+    padding:10px ;
+    border: 0px solid green;
+    margin:10px ;
+background-color:green
+}
+
+.alert-warning{
+    font-size:18px;
+    font-weight:bold ;
+    font-family:Arial, Helvetica, sans-serif ;
+    padding:10px ;
+    border: 0px solid yellow;
+    margin:10px ;
+background-color:yellow;}
+
+nav{
+    text-align: center;
+}
+nav a {
+ text-decoration: none;
+ font-size: 113px;
+ padding-right: 125px;
+ padding-left: 125px;
+ color: rgb(0, 0, 0) 119, 117;
+ all: initial;
+}
+nav button {
+ background-color: #8c00ff;
+ font-size: 25px;
+ font-family: Arial, Helvetica, sans-serif;
+ text-align:start;
+
+}
+
+.message, footer {
+  height: 1200px;
+}
+/*# sourceMappingURL=saas.css.map */
+a{
+    color: black;
+}
+
+    
+main {
+  
+    padding-top: 15px;
+    height: 118px;
+    color:black;
+    text-align: center;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 10px;
+ }
+footer {background-color:rgba(0, 0, 0, 0.856);
+    left: 0px;
+    width: 5500px;
+    bottom: -4000px;
+    position: fixed;
+    height: 500px;
+}
+ 
+    footer h1 { color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:start;
+    font-size: 15px;
+    }
+    /*text-decoration: none*/ 
+    
+    footer a {
+        color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:start;
+font-size: 15px;}
+    
+    footer p {color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align:start;
+    font-size: 15px;
+    }
+    
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+
+    html, body{
+        height: 100%;
+    }
+
+    #contanier{
+        min-height:100%;
+    }
+    #main{
+        overflow: auto;
+        padding: 100px;
+    }
+
+    #footer{
+        background-color:black;
+        position:relative;
+        height: 500px;
+        margin-bottom:-4000px;
+        clear: both;
+    width: 5500px;} 
+
+        .alert-danger span{
+            background-color:red;
+                }
+            .alert-success span{
+                background-color: green;
+            }
+            .alert-warning span{
+                background-color: yellow;
+            }
+
+            @media only screen and (min-width:375px){
+                body{
+                    background-color: lightblue;
+                }
+                header {
+                    
+                    background-color: grey;
+                    height: 100px;
+                    text-align:center;
+                    width: 5500px;}
+                  
+                
+                
+                
+                header h1 {
+                    color: black;
+                    height:100px ;
+                font-family: Arial, Helvetica, sans-serif;
+                text-align:center;
+                font-size: 50px;
+                padding-block-start: 30px;
+                
+                }
+                .alert-danger{
+                    font-size:18px;
+                    font-weight:bold ;
+                    font-family:Arial, Helvetica, sans-serif ;
+                    padding:10px ;
+                    border: 0px solid red;
+                    margin:10px ;
+                background-color: red;
+                width:5500px;
+                }
+                .alert-success{
+                    font-size:18px;
+                    font-weight:bold ;
+                    font-family:Arial, Helvetica, sans-serif ;
+                    padding:10px ;
+                    border: 0px solid green;
+                    margin:10px ;
+                background-color:green;
+                width: 5500px;
+                }
+                
+                .alert-warning{
+                    font-size:18px;
+                    font-weight:bold ;
+                    font-family:Arial, Helvetica, sans-serif ;
+                    padding:10px ;
+                    border: 0px solid yellow;
+                    margin:10px ;
+                background-color:yellow;
+                width: 5500px;}
+                
+                nav{
+                    text-align: center;
+                }
+                nav a {
+                 text-decoration: none;
+                 font-size: 113px;
+                 padding-right: 125px;
+                 padding-left: 125px;
+                 color: rgb(0, 0, 0) 119, 117;
+                 all: initial;
+             }
+                nav button {
+                 background-color: #8c00ff;
+                 font-size: 25px;
+                 font-family: Arial, Helvetica, sans-serif;
+                 text-align:start;}
+                
+                .message, footer {
+                  height: 1200px;
+                }
+                /*# sourceMappingURL=saas.css.map */
+                a{
+                    color: black;
+                }
+                
+                    
+                main {
+                  
+                    padding-top: 15px;
+                    height: 118px;
+                    color:black;
+                    text-align: center;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                    font-size: 10px;
+                 }
+                footer {background-color:rgba(0, 0, 0, 0.856);
+                    left: 0px;
+                    height: 700px;
+                    width: 1350px;
+                    bottom: -4000px;
+                    position: fixed;
+                }
+                 
+                    footer h1 { color: white;
+                    font-family: Arial, Helvetica, sans-serif;
+                    text-align:start;
+                    font-size: 50px;
+                    }
+                    /*text-decoration: none*/ 
+                    
+                    footer a {
+                        color: blue;
+                    font-family: Arial, Helvetica, sans-serif;
+                    text-align:start;
+                font-size: 50px;}
+                    
+                    footer p {color: white;
+                        font-family: Arial, Helvetica, sans-serif;
+                        text-align:start;
+                    font-size: 50px;
+                    }
+                    
+
+                    p{
+                        font-size:50px;
+                        font-family: Arial, Helvetica, sans-serif;
+                    }
+                    *{
+                        margin: 0px;
+                        padding: 0px;
+                    }
+                
+                    html, body{
+                        height: 100%;
+                    }
+                
+                    #contanier{
+                        min-height:100%;
+                    }
+                    #main{
+                        overflow: auto;
+                        padding: 100px;
+                    }
+                
+                    #footer{
+                        background-color:black;
+                        position:relative;
+                        height: 700px;
+                        margin-bottom:-4000px;
+                        clear: both;}
+                
+                        .alert-danger span{
+                            background-color:red;
+                                }
+                            .alert-success span{
+                                background-color: green;
+                            }
+                            .alert-warning span{
+                                background-color: yellow;
+                            }}

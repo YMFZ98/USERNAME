@@ -1,0 +1,355 @@
+body{
+    background-color:lightblue;
+    height: 1082px;}
+
+    header {
+        background-color: grey;
+        height: 100px;
+        width: 55000px;
+    }
+    
+    header h1 {
+        color: black;
+        height: 100px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align:start;
+        font-size: 50px;
+        padding-block-start: 30px;
+    }
+    
+    nav{
+        text-align: center;
+    }
+    nav a {
+     text-decoration: none;
+     font-size: 113px;
+     padding-right: 125px;
+     padding-left: 125px;
+     color: rgb(0, 0, 0) 119, 117;
+     all: initial;
+ }
+    nav button {
+     background-color: #8c00ff;
+     font-size: 25px;
+     font-family: Arial, Helvetica, sans-serif;
+     text-align:start;
+   }
+     
+      a{color: black;
+
+      }
+
+    p{padding: 100px;
+        color: rgba(0, 0, 0, 0.856);
+        font-size:200px;
+        font-family: Arial, Helvetica, sans-serif;
+    
+    }
+main {
+
+    color:black;
+ text-align: center;}
+
+main p{height:50px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:end;
+    font-size: 50px;
+
+    
+}
+
+.alert-danger {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    border: 0px solid red;
+    margin: 10px;
+    background-color: red;
+    width: 5500px;
+}
+.alert-success {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    border: 0px solid green;
+    margin: 10px;
+    background-color: green;
+    width: 5500px;
+}
+.alert-warning {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    border: 0px solid yellow;
+    margin: 10px;
+    background-color: yellow;
+    width: 5500px;
+}
+.alert-danger span {
+    background-color: red;
+}
+.alert-success span {
+    background-color: green;
+}
+.alert-warning span {
+    background-color: yellow;}
+ 
+ footer {background-color:rgba(0, 0, 0, 0.856);
+    width: 5500px;
+    bottom:-4000px;
+    position: fixed;
+    height: 700px;
+    text-align: start;
+}
+
+
+    
+/*text-decoration: none*/
+
+footer h1 { color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:start;
+    font-size: 50px;
+    }
+    /*text-decoration: none*/ 
+    
+    footer a {
+        color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:start;
+font-size: 50px;}
+    
+    footer p {color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align:start;
+    font-size: 50px;
+
+    }
+    
+
+    
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body{
+    height: 100%;
+}
+
+#contanier{
+    min-height:100%;
+}
+#main{
+    overflow: auto;
+    padding: 100px;
+}
+
+#footer{
+    background-color:black;
+    position:relative;
+    height: 700px;
+    margin-bottom:-4000px;
+    clear: both;
+    width: 5500px;
+    text-align: start;
+}
+
+table.center{
+    padding: 50px;
+    margin-left:auto ;
+    margin-right:auto ;
+    height: 1110px;
+    font-size: 100px;
+}
+
+table,th,td{
+    padding: 50px;
+    border: 1px solid black ;
+    border-collapse: collapse;
+    height: 1110px;
+    font-size: 100px;
+}
+
+h1{
+    font-size: 150px;
+}
+
+@media only screen and (min-width:375px){
+    body{
+    background-color:lightblue;
+    height: 1082px;}
+
+    header {
+        background-color: grey;
+        height: 100px;
+        width: 5500px;
+    }
+    
+    header h1 {
+        color: black;
+        height: 100px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align:start;
+        font-size: 50px;
+        padding-block-start: 30px;
+    }
+    
+    nav{
+        text-align: center;
+    }
+    nav a {
+     text-decoration: none;
+     font-size: 113px;
+     padding-right: 125px;
+     padding-left: 125px;
+     color: rgb(0, 0, 0) 119, 117;
+     all: initial;
+ }
+    nav button {
+     background-color: #8c00ff;
+     font-size: 25px;
+     font-family: Arial, Helvetica, sans-serif;
+     text-align:start;
+   }
+      a{color: black;
+
+      }
+
+    p{
+        color: rgba(0, 0, 0, 0.856);
+        font-size: 25px;
+        font-family: Arial, Helvetica, sans-serif;
+    
+    }
+main {
+
+    color:black;
+ text-align: center;}
+
+main p{height:50px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:end;
+    font-size: 50px;
+
+    
+}
+
+.alert-danger {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    border: 0px solid red;
+    margin: 10px;
+    background-color: red;
+    width: 5500px;
+}
+.alert-success {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    border: 0px solid green;
+    margin: 10px;
+    background-color: green;
+    width: 5500px;
+}
+.alert-warning {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    border: 0px solid yellow;
+    margin: 10px;
+    background-color: yellow;
+    width:5500px;
+}
+.alert-danger span {
+    background-color: red;
+}
+.alert-success span {
+    background-color: green;
+}
+.alert-warning span {
+    background-color: yellow;}
+ 
+ footer {background-color:rgba(0, 0, 0, 0.856);
+    width: 5500px;
+    bottom:-4000px;
+    position: fixed;
+    height: 700px;
+    text-align: start;
+}
+
+
+    
+/*text-decoration: none*/
+
+footer h1 { color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:start;
+    font-size: 50px;
+    }
+    /*text-decoration: none*/ 
+    
+    footer a {
+        color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:start;
+font-size: 50px;}
+    
+    footer p {color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align:start;
+    font-size: 50px;
+
+    }
+    
+
+    
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body{
+    height: 100%;
+}
+
+#contanier{
+    min-height:100%;
+}
+#main{
+    overflow: auto;
+    padding: 100px;
+}
+
+#footer{
+    background-color:black;
+    position:relative;
+    height: 700px;
+    margin-bottom:-4000px;
+    clear: both;
+    text-align: start;
+}
+
+table.center{
+    padding: 25px;
+    margin-left:auto ;
+    margin-right:auto ;
+    height: 110px;
+}
+
+table,th,td{
+    padding: 25px;
+    border: 1px solid black ;
+    border-collapse: collapse;
+    height: 110px;
+}
+}
